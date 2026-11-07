@@ -1,12 +1,15 @@
 # IPv4 Subnet Calculator
 
+
 ## Project Overview
 
 The IPv4 Subnet Calculator is a Python command-line application that calculates network information from an IPv4 address and CIDR prefix.
 
 It was developed as a practical networking project to demonstrate IPv4 addressing, subnetting and Python programming.
 
+
 ## Features
+
 - IPv4 address validation
 - Subnet mask calculation
 - Network address identification
@@ -17,32 +20,78 @@ It was developed as a practical networking project to demonstrate IPv4 addressin
 - Support for /31 and /32 subnets
 -Automated testing with pytest
 
+
 ## Technologies Used
+
 - Python 3
 - ipaddress
 - pytest
 
+
 ## Installation
 
+Clone the repository:
+
+    ```bash
+    git clone https://github.com/BlakkyWeb/ipv4-subnet-calculator.git
+    ```
+    
+
+Navigate into the project directory:
+
+    ```bash
+    cd ipv4_subnet_calculator
+    cd ipv4_subnet_calculator
+    ```
+
+Install dependencies:
+
+    ```bash
+    python -m pip install -r requirements.txt
+    ```
+
+
 ## Usage
+
 Run the application:
+
+    ```bash
     python main.py
+    ```
+
 Enter an IPv4 address and CIDR prefix when prompted
 
 Example:
+
+    ```text
     IP Address: 192.168.1.10
     CIDR Prefix: 24
+    ```
+
 
 ## Running Tests
-Execute:
+
+Run the following command:
+
+    ```bash
     python -m pytest -v
+    ```
+
 
 ## Project Structure
+
     ```text
     ipv4_subnet_calculator
-    treev  
+    ├── main.py
+    ├── subnet_calculator.py
+    ├── test_subnet.py
+    ├── READ.md
+    └── requirements.txt
+    ```
+
 
 ## Learning Outcomes
+
 This project demonstrates:
 - IPv4 addressing and subnetting
 - CIDR notation
@@ -52,4 +101,5 @@ This project demonstrates:
 - Modular programming
 
 ## Author
+
 Ajetomobi Praise Kayode
